@@ -16,13 +16,13 @@ A fully local, privacy-preserving voice assistant that continuously listens for 
 ## System Architecture
 
 ```mermaid
-flowchart TD
-    A[Audio Input (Microphone)] --> B[Audio Buffer (PyAudio)]
-    B --> C[Wake Word Detection (OpenWakeWord)]
-    C --> D[Speech Recognition (Whisper)]
-    D --> E[LLM Processing (Ollama)]
-    E --> F[Text-to-Speech (pyttsx3/Coqui)]
-    F --> G[Audio Output (Speakers)]
+flowchart TD;
+    A[Audio Input (Microphone)] --> B[Audio Buffer (PyAudio)];
+    B --> C[Wake Word Detection (OpenWakeWord)];
+    C --> D[Speech Recognition (Whisper)];
+    D --> E[LLM Processing (Ollama)];
+    E --> F[Text-to-Speech (pyttsx3/Coqui)];
+    F --> G[Audio Output (Speakers)];
 ```
 
 
