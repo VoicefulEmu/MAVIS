@@ -16,6 +16,10 @@ A fully local, privacy-preserving voice assistant that continuously listens for 
 ## System Architecture
 
 ```mermaid
+config:
+    flowchart:
+        htmlLabels: false
+
 flowchart LR
     A [Audio Input (Microphone)] --> B[Audio Buffer (PyAudio)]
     B --> C[Wake Word Detection (OpenWakeWord)]
